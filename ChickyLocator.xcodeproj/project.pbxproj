@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276D8FB6DBBC9701E1AE3D55 /* Pods_ChickyLocator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4045299ED7F3C2F4D2F4A6B /* Pods_ChickyLocator.framework */; };
+		7F3F4D3321C7137700BDA57A /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F4D3221C7137700BDA57A /* CustomAnnotation.swift */; };
+		7FB00F0D21C7F06D0095E7A9 /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB00F0C21C7F06D0095E7A9 /* Launcher.swift */; };
+		7FB00F0F21C7F2690095E7A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FB00F0E21C7F2690095E7A9 /* GoogleService-Info.plist */; };
+		7FB4E2A321C0C2A000378DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4E2A221C0C2A000378DA9 /* AppDelegate.swift */; };
+		7FB4E2A521C0C2A000378DA9 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4E2A421C0C2A000378DA9 /* HomeController.swift */; };
+		7FB4E2AB21C0C2A000378DA9 /* ChickyLocator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4E2A921C0C2A000378DA9 /* ChickyLocator.xcdatamodeld */; };
+		7FB4E2AD21C0C2A200378DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB4E2AC21C0C2A200378DA9 /* Assets.xcassets */; };
+		7FB4E2B021C0C2A200378DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB4E2AE21C0C2A200378DA9 /* LaunchScreen.storyboard */; };
+		7FB4E2BB21C0C2A200378DA9 /* ChickyLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4E2BA21C0C2A200378DA9 /* ChickyLocatorTests.swift */; };
+		7FB4E2C621C0C2A200378DA9 /* ChickyLocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4E2C521C0C2A200378DA9 /* ChickyLocatorUITests.swift */; };
+		7FD959DA21C6E2B50073023F /* ChickSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD959D921C6E2B50073023F /* ChickSelectionView.swift */; };
+		7FD959DD21C6ED660073023F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD959DC21C6ED660073023F /* InfoViewController.swift */; };
+		7FD959DF21C6F4D30073023F /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD959DE21C6F4D30073023F /* MapController.swift */; };
+		7FD959E221C6F6A20073023F /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD959E121C6F6A20073023F /* LocationService.swift */; };
+		7FD959E521C6FBCF0073023F /* LocationServiceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD959E421C6FBCF0073023F /* LocationServiceObserver.swift */; };
+		7FD959E921C6FC680073023F /* LocationService-Proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD959E821C6FC680073023F /* LocationService-Proto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FB4E2B721C0C2A200378DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB4E29721C0C2A000378DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB4E29E21C0C2A000378DA9;
+			remoteInfo = ChickyLocator;
+		};
+		7FB4E2C221C0C2A200378DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB4E29721C0C2A000378DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB4E29E21C0C2A000378DA9;
+			remoteInfo = ChickyLocator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F3F4D3221C7137700BDA57A /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		7FB00F0C21C7F06D0095E7A9 /* Launcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
+		7FB00F0E21C7F2690095E7A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FB00F1021C7F2890095E7A9 /* ChickyLocator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChickyLocator.entitlements; sourceTree = "<group>"; };
+		7FB4E29F21C0C2A000378DA9 /* ChickyLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChickyLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB4E2A221C0C2A000378DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FB4E2A421C0C2A000378DA9 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		7FB4E2AA21C0C2A000378DA9 /* ChickyLocator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChickyLocator.xcdatamodel; sourceTree = "<group>"; };
+		7FB4E2AC21C0C2A200378DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FB4E2AF21C0C2A200378DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FB4E2B121C0C2A200378DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB4E2B621C0C2A200378DA9 /* ChickyLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChickyLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB4E2BA21C0C2A200378DA9 /* ChickyLocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickyLocatorTests.swift; sourceTree = "<group>"; };
+		7FB4E2BC21C0C2A200378DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB4E2C121C0C2A200378DA9 /* ChickyLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChickyLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB4E2C521C0C2A200378DA9 /* ChickyLocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickyLocatorUITests.swift; sourceTree = "<group>"; };
+		7FB4E2C721C0C2A200378DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD959D921C6E2B50073023F /* ChickSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickSelectionView.swift; sourceTree = "<group>"; };
+		7FD959DC21C6ED660073023F /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		7FD959DE21C6F4D30073023F /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		7FD959E121C6F6A20073023F /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		7FD959E421C6FBCF0073023F /* LocationServiceObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServiceObserver.swift; sourceTree = "<group>"; };
+		7FD959E821C6FC680073023F /* LocationService-Proto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationService-Proto.swift"; sourceTree = "<group>"; };
+		93780FD4378C3CE7FDF5190A /* Pods-ChickyLocator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChickyLocator.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChickyLocator/Pods-ChickyLocator.release.xcconfig"; sourceTree = "<group>"; };
+		C847286871D3DEDFFBB8EF8B /* Pods-ChickyLocator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChickyLocator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChickyLocator/Pods-ChickyLocator.debug.xcconfig"; sourceTree = "<group>"; };
+		E4045299ED7F3C2F4D2F4A6B /* Pods_ChickyLocator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChickyLocator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB4E29C21C0C2A000378DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276D8FB6DBBC9701E1AE3D55 /* Pods_ChickyLocator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB4E2B321C0C2A200378DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB4E2BE21C0C2A200378DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FEB248CC453DE7BAC9587EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C847286871D3DEDFFBB8EF8B /* Pods-ChickyLocator.debug.xcconfig */,
+				93780FD4378C3CE7FDF5190A /* Pods-ChickyLocator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F232AB13B8826EC14CC0A8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4045299ED7F3C2F4D2F4A6B /* Pods_ChickyLocator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FB4E29621C0C2A000378DA9 = {
+			isa = PBXGroup;
+			children = (
+				7FD959E321C6FBBA0073023F /* Protocols */,
+				7FD959E021C6F6930073023F /* Services */,
+				7FD959D821C6E2A00073023F /* Views */,
+				7FB4E2A121C0C2A000378DA9 /* ChickyLocator */,
+				7FB4E2B921C0C2A200378DA9 /* ChickyLocatorTests */,
+				7FB4E2C421C0C2A200378DA9 /* ChickyLocatorUITests */,
+				7FB4E2A021C0C2A000378DA9 /* Products */,
+				0FEB248CC453DE7BAC9587EF /* Pods */,
+				7F232AB13B8826EC14CC0A8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB4E2A021C0C2A000378DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB4E29F21C0C2A000378DA9 /* ChickyLocator.app */,
+				7FB4E2B621C0C2A200378DA9 /* ChickyLocatorTests.xctest */,
+				7FB4E2C121C0C2A200378DA9 /* ChickyLocatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB4E2A121C0C2A000378DA9 /* ChickyLocator */ = {
+			isa = PBXGroup;
+			children = (
+				7FB00F1021C7F2890095E7A9 /* ChickyLocator.entitlements */,
+				7FD959DE21C6F4D30073023F /* MapController.swift */,
+				7FD959DC21C6ED660073023F /* InfoViewController.swift */,
+				7FB4E2A421C0C2A000378DA9 /* HomeController.swift */,
+				7FB4E2AC21C0C2A200378DA9 /* Assets.xcassets */,
+				7FB00F0E21C7F2690095E7A9 /* GoogleService-Info.plist */,
+				7FB4E2AE21C0C2A200378DA9 /* LaunchScreen.storyboard */,
+				7FB4E2B121C0C2A200378DA9 /* Info.plist */,
+				7FB4E2A921C0C2A000378DA9 /* ChickyLocator.xcdatamodeld */,
+				7FB4E2A221C0C2A000378DA9 /* AppDelegate.swift */,
+			);
+			path = ChickyLocator;
+			sourceTree = "<group>";
+		};
+		7FB4E2B921C0C2A200378DA9 /* ChickyLocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB4E2BA21C0C2A200378DA9 /* ChickyLocatorTests.swift */,
+				7FB4E2BC21C0C2A200378DA9 /* Info.plist */,
+			);
+			path = ChickyLocatorTests;
+			sourceTree = "<group>";
+		};
+		7FB4E2C421C0C2A200378DA9 /* ChickyLocatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB4E2C521C0C2A200378DA9 /* ChickyLocatorUITests.swift */,
+				7FB4E2C721C0C2A200378DA9 /* Info.plist */,
+			);
+			path = ChickyLocatorUITests;
+			sourceTree = "<group>";
+		};
+		7FD959D821C6E2A00073023F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FD959D921C6E2B50073023F /* ChickSelectionView.swift */,
+				7F3F4D3221C7137700BDA57A /* CustomAnnotation.swift */,
+				7FB00F0C21C7F06D0095E7A9 /* Launcher.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7FD959E021C6F6930073023F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7FD959E121C6F6A20073023F /* LocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7FD959E321C6FBBA0073023F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7FD959E421C6FBCF0073023F /* LocationServiceObserver.swift */,
+				7FD959E821C6FC680073023F /* LocationService-Proto.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB4E29E21C0C2A000378DA9 /* ChickyLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB4E2CA21C0C2A200378DA9 /* Build configuration list for PBXNativeTarget "ChickyLocator" */;
+			buildPhases = (
+				DF4E3426AA6614A35A25F176 /* [CP] Check Pods Manifest.lock */,
+				7FB4E29B21C0C2A000378DA9 /* Sources */,
+				7FB4E29C21C0C2A000378DA9 /* Frameworks */,
+				7FB4E29D21C0C2A000378DA9 /* Resources */,
+				9D4ACA03F2553735C49BEEC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChickyLocator;
+			productName = ChickyLocator;
+			productReference = 7FB4E29F21C0C2A000378DA9 /* ChickyLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FB4E2B521C0C2A200378DA9 /* ChickyLocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB4E2CD21C0C2A200378DA9 /* Build configuration list for PBXNativeTarget "ChickyLocatorTests" */;
+			buildPhases = (
+				7FB4E2B221C0C2A200378DA9 /* Sources */,
+				7FB4E2B321C0C2A200378DA9 /* Frameworks */,
+				7FB4E2B421C0C2A200378DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB4E2B821C0C2A200378DA9 /* PBXTargetDependency */,
+			);
+			name = ChickyLocatorTests;
+			productName = ChickyLocatorTests;
+			productReference = 7FB4E2B621C0C2A200378DA9 /* ChickyLocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FB4E2C021C0C2A200378DA9 /* ChickyLocatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB4E2D021C0C2A200378DA9 /* Build configuration list for PBXNativeTarget "ChickyLocatorUITests" */;
+			buildPhases = (
+				7FB4E2BD21C0C2A200378DA9 /* Sources */,
+				7FB4E2BE21C0C2A200378DA9 /* Frameworks */,
+				7FB4E2BF21C0C2A200378DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB4E2C321C0C2A200378DA9 /* PBXTargetDependency */,
+			);
+			name = ChickyLocatorUITests;
+			productName = ChickyLocatorUITests;
+			productReference = 7FB4E2C121C0C2A200378DA9 /* ChickyLocatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB4E29721C0C2A000378DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jared Williams";
+				TargetAttributes = {
+					7FB4E29E21C0C2A000378DA9 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					7FB4E2B521C0C2A200378DA9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7FB4E29E21C0C2A000378DA9;
+					};
+					7FB4E2C021C0C2A200378DA9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7FB4E29E21C0C2A000378DA9;
+					};
+				};
+			};
+			buildConfigurationList = 7FB4E29A21C0C2A000378DA9 /* Build configuration list for PBXProject "ChickyLocator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FB4E29621C0C2A000378DA9;
+			productRefGroup = 7FB4E2A021C0C2A000378DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB4E29E21C0C2A000378DA9 /* ChickyLocator */,
+				7FB4E2B521C0C2A200378DA9 /* ChickyLocatorTests */,
+				7FB4E2C021C0C2A200378DA9 /* ChickyLocatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB4E29D21C0C2A000378DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB4E2B021C0C2A200378DA9 /* LaunchScreen.storyboard in Resources */,
+				7FB4E2AD21C0C2A200378DA9 /* Assets.xcassets in Resources */,
+				7FB00F0F21C7F2690095E7A9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB4E2B421C0C2A200378DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB4E2BF21C0C2A200378DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D4ACA03F2553735C49BEEC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChickyLocator/Pods-ChickyLocator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChickyLocator/Pods-ChickyLocator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4E3426AA6614A35A25F176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChickyLocator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB4E29B21C0C2A000378DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD959E221C6F6A20073023F /* LocationService.swift in Sources */,
+				7FB4E2AB21C0C2A000378DA9 /* ChickyLocator.xcdatamodeld in Sources */,
+				7FD959E921C6FC680073023F /* LocationService-Proto.swift in Sources */,
+				7FB00F0D21C7F06D0095E7A9 /* Launcher.swift in Sources */,
+				7FD959E521C6FBCF0073023F /* LocationServiceObserver.swift in Sources */,
+				7FB4E2A521C0C2A000378DA9 /* HomeController.swift in Sources */,
+				7FD959DA21C6E2B50073023F /* ChickSelectionView.swift in Sources */,
+				7FB4E2A321C0C2A000378DA9 /* AppDelegate.swift in Sources */,
+				7F3F4D3321C7137700BDA57A /* CustomAnnotation.swift in Sources */,
+				7FD959DF21C6F4D30073023F /* MapController.swift in Sources */,
+				7FD959DD21C6ED660073023F /* InfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB4E2B221C0C2A200378DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB4E2BB21C0C2A200378DA9 /* ChickyLocatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB4E2BD21C0C2A200378DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB4E2C621C0C2A200378DA9 /* ChickyLocatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FB4E2B821C0C2A200378DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB4E29E21C0C2A000378DA9 /* ChickyLocator */;
+			targetProxy = 7FB4E2B721C0C2A200378DA9 /* PBXContainerItemProxy */;
+		};
+		7FB4E2C321C0C2A200378DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB4E29E21C0C2A000378DA9 /* ChickyLocator */;
+			targetProxy = 7FB4E2C221C0C2A200378DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FB4E2AE21C0C2A200378DA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB4E2AF21C0C2A200378DA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FB4E2C821C0C2A200378DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FB4E2C921C0C2A200378DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FB4E2CB21C0C2A200378DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C847286871D3DEDFFBB8EF8B /* Pods-ChickyLocator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChickyLocator/ChickyLocator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SR3MG6VY6;
+				INFOPLIST_FILE = ChickyLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaredWilliams.ChickyLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7FB4E2CC21C0C2A200378DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93780FD4378C3CE7FDF5190A /* Pods-ChickyLocator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChickyLocator/ChickyLocator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SR3MG6VY6;
+				INFOPLIST_FILE = ChickyLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaredWilliams.ChickyLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7FB4E2CE21C0C2A200378DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SR3MG6VY6;
+				INFOPLIST_FILE = ChickyLocatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaredWilliams.ChickyLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickyLocator.app/ChickyLocator";
+			};
+			name = Debug;
+		};
+		7FB4E2CF21C0C2A200378DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SR3MG6VY6;
+				INFOPLIST_FILE = ChickyLocatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaredWilliams.ChickyLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickyLocator.app/ChickyLocator";
+			};
+			name = Release;
+		};
+		7FB4E2D121C0C2A200378DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SR3MG6VY6;
+				INFOPLIST_FILE = ChickyLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaredWilliams.ChickyLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChickyLocator;
+			};
+			name = Debug;
+		};
+		7FB4E2D221C0C2A200378DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SR3MG6VY6;
+				INFOPLIST_FILE = ChickyLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaredWilliams.ChickyLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChickyLocator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB4E29A21C0C2A000378DA9 /* Build configuration list for PBXProject "ChickyLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB4E2C821C0C2A200378DA9 /* Debug */,
+				7FB4E2C921C0C2A200378DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB4E2CA21C0C2A200378DA9 /* Build configuration list for PBXNativeTarget "ChickyLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB4E2CB21C0C2A200378DA9 /* Debug */,
+				7FB4E2CC21C0C2A200378DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB4E2CD21C0C2A200378DA9 /* Build configuration list for PBXNativeTarget "ChickyLocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB4E2CE21C0C2A200378DA9 /* Debug */,
+				7FB4E2CF21C0C2A200378DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB4E2D021C0C2A200378DA9 /* Build configuration list for PBXNativeTarget "ChickyLocatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB4E2D121C0C2A200378DA9 /* Debug */,
+				7FB4E2D221C0C2A200378DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7FB4E2A921C0C2A000378DA9 /* ChickyLocator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7FB4E2AA21C0C2A000378DA9 /* ChickyLocator.xcdatamodel */,
+			);
+			currentVersion = 7FB4E2AA21C0C2A000378DA9 /* ChickyLocator.xcdatamodel */;
+			path = ChickyLocator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7FB4E29721C0C2A000378DA9 /* Project object */;
+}
